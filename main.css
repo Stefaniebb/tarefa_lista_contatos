@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.tabela-contatos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-contatos th, .tabela-contatos td {
+    border: 1px solid #f0ffeb;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabela-contatos th {
+    background-color: #effff2;
+}
+
+.tabela-contatos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    padding: 8px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
